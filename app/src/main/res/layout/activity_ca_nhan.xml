@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaNhan"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_header_canhan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F3F3D0">
+
+        <ImageButton
+            android:id="@+id/image_btn_back_canhan"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:background="#F3F3D0"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+
+        <ImageView
+            android:id="@+id/image_header_anh_canhan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo_shop" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_center_home_canhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#F3F3D0">
+
+        <LinearLayout
+            android:id="@+id/layout_center_ten_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_ten_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tên"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_ten_user"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_center_cmnd_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_cmnd_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Số CMND"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_cmnd_user"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_center_gioitinh_canhan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_gioitinh_canhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Giới tính"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_gioitinh_canhan"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_center_sdt_canhan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_sdt_canhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Điện thoại"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_sdt_canhan"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_center_email_canhan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_email_canhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Email"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_email_canhan"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_center_diachi_canhan"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txt_center_diachi_canhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Địa chỉ"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_center_diachi_canhan"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boder_3" />
+        </LinearLayout>
+
+        <Button
+            style="bold"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/boder_1"
+            android:text="Lưu thông tin"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
