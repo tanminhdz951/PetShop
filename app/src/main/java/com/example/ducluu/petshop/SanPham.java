@@ -140,13 +140,13 @@ public class SanPham extends AppCompatActivity {
         }
     }
     private void anhxacho() {
-        lviewSanPham = (ListView) findViewById(R.id.lvSanPham);
-        arraySP = new ArrayList<>();
-
-        arraySP.add(new spSanPham("Chó lông xù đáng yêu","đ3.400.000","Chó lông xù nhập khẩu anh",R.drawable.cho1));
-        arraySP.add(new spSanPham("Chó mặt xệ","đ8.400.000","Loại chó có chân ngắn",R.drawable.chopug));
-        arraySP.add(new spSanPham("Chó alaska","đ2.400.000","Chó alaska bắt nguồn từ loài sói lai chó nhà",R.drawable.choalaska));
-        arraySP.add(new spSanPham("Chó becgie","đ1.200.000","Chó nhập khẩu anh",R.drawable.chobecgie));
+//        lviewSanPham = (ListView) findViewById(R.id.lvSanPham);
+//        arraySP = new ArrayList<>();
+//
+//        arraySP.add(new spSanPham("Chó lông xù đáng yêu","đ3.400.000","Chó lông xù nhập khẩu anh",R.drawable.cho1));
+//        arraySP.add(new spSanPham("Chó mặt xệ","đ8.400.000","Loại chó có chân ngắn",R.drawable.chopug));
+//        arraySP.add(new spSanPham("Chó alaska","đ2.400.000","Chó alaska bắt nguồn từ loài sói lai chó nhà",R.drawable.choalaska));
+//        arraySP.add(new spSanPham("Chó becgie","đ1.200.000","Chó nhập khẩu anh",R.drawable.chobecgie));
 
     }
     private  void  anhxameo(){
